@@ -1,6 +1,8 @@
 ---
 layout: post
 author: George Baker 
+description: A short introduction to programming using Python.
+image: https://blog.gsbaker.uk/img/logic-board.jpg
 ---
 
 ### Prerequisites
