@@ -274,6 +274,93 @@ E.g.
 > lightbulb = switch(lightbulb) # we'll get back False i.e. off
 ```
 
+## Iteration
+Another common theme in programming is instructing a computer to repeat a certain
+action `n` number of times. This is called **iteration**.
+
+There are two tools in Python for iterating:
+1. `for` loops
+2. `while` loops
+
+### `for` loop
+`for` loops in Python make use of the `range(start, stop, step)` function. 
+
+The `range(start, stop, step)` function returns a sequence of numbers, starting from `0`
+(by default), and increments by `1` (by default), and stops before a specified number.
+
+The only compulsory argument is `stop`.
+
+E.g. 
+```python
+range(5)
+```
+will return `0`, `1`, `2`, `3`, `4`. `range(5)` is equivalent to `range(0,5)`.
+
+We can construct a `for` loop using the `range(start, stop, step)` function to repeat 
+a set of commands a specified number of times:
+```python
+for x in range(10):
+  print(x)
+```
+
+This will output:
+```python
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+### `while` loop
+`while` loops execute a block of commands **while** a certain condition evaluates
+to `True`.
+
+They are syntactically similar to `if` statements:
+```python
+while condition:
+  # do something
+```
+
+If we wanted to output the numbers `0..9` like we did just above, we could do that 
+with a `while` loop and a counter variable:
+```python
+count = 0
+while count < 10:
+  print(count)
+  count = count + 1 # increment count by one
+```
+
+This will output:
+```python
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+Just for fun, we could also instruct a computer to do something forever by setting the
+`while condition` to be always `True`:
+```python
+while True:
+  print("Hello, World!")
+```
+
+And this program will go on outputting "Hello, World!" forever, and ever...
+
+Computers are so clever!
+
 ---
 ### Where to go from here?
 This was just a **short** introduction to programming. Don't worry if you didn't 
