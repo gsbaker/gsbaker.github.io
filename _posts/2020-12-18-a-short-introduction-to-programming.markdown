@@ -260,11 +260,9 @@ We could write a function called `switch` which switches a `lightbulb` on and of
 ```python
 def switch(x):
   if x:
-    x = False
-    return x
+    return False
   else:
-    x = True
-    return x
+    return True
 ```
 
 `switch` takes a value `x` as an argument, and switches its boolean value. It will
