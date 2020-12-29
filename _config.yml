@@ -25,13 +25,22 @@ description: >- # this means to ignore newlines until "baseurl:"
     to write about.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gsbaker_
+twitter_username: georgestephenb
+instagram_username: georgestephenbaker
 github_username:  gsbaker
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  
+defaults:
+- scope:
+    path: "" # an empty string here means all files in the project
+    type: "posts"
+    values:
+      author: "George Baker"
+      categories: "posts"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
