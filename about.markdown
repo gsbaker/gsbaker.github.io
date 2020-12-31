@@ -12,7 +12,7 @@ capitalise computer science; [here's why](https://english.stackexchange.com/a/22
 My hobbies and interests include: 
 - Programming (I'm in the [building things for people to use](https://josephg.com/blog/3-tribes/)
  tribe)
-- Photography
+- Photography (follow me on [Instagram](https://www.instagram.com/georgestephenbaker))
 - Playing Tennis
 - Running
 - Listening to Music (follow me on [Apple Music](https://music.apple.com/profile/gsbaker))
