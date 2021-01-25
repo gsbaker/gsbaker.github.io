@@ -285,3 +285,14 @@ Running this, we'll get:
 50
 150
 ```
+
+---
+
+### Where to go from here?
+This was just a **short** introduction to Object Oriented Programming. 
+Don’t worry if you didn’t understand all of it. In order to keep it brief, I refrained
+ from explaining a lot of things which other tutorials might explain in further detail.
+ 
+If you’re interested in learning more, here are some great resources to get you started:
+- [9. Classes (docs.python.org)](https://docs.python.org/3/tutorial/classes.html)
+- [Python OOP Tutorial 1: Classes and Instances — Corey Shaffer](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
