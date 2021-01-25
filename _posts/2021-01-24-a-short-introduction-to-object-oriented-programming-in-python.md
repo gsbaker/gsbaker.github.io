@@ -1,5 +1,6 @@
 ---
 layout: post
+author: George Baker
 description: A short introduction to object oriented programming in Python.
 image: https://blog.gsbaker.uk/favicon.png
 ---
