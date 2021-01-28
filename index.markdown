@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+<div id="tags">
+	<a href="" class="tag">#programming</a>
+	<a href="" class="tag">#photography</a>
+	<a href="" class="tag">#university</a>
+</div>
