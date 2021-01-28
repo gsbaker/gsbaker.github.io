@@ -2,6 +2,7 @@
 layout: post
 title: Reflecting on the First Year of My Degree
 author: George Baker
+category: university
 ---
 
 Under the strangest of circumstances, the first year of my computer science degree has 

@@ -6,7 +6,7 @@ layout: home
 ---
 
 <div id="tags">
-	<a href="" class="tag">#programming</a>
-	<a href="" class="tag">#photography</a>
-	<a href="" class="tag">#university</a>
+	<a href="/category/personal" class="tag">#personal</a>
+	<a href="/category/programming" class="tag">#programming</a>
+	<a href="/category/university" class="tag">#university</a>
 </div>

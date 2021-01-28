@@ -4,6 +4,7 @@ author: George Baker
 title: A Short Introduction To Lists In Python
 description: A short introduction to lists in Python.
 image: https://blog.gsbaker.uk/favicon.png
+category: programming
 ---
 
 ### Prerequisites

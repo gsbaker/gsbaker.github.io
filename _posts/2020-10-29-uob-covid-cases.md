@@ -5,6 +5,7 @@ modified_date: 2020-12-02
 description: A collection of the available University of Birmingham COVID data.  
 image: https://blog.gsbaker.uk/img/uob/logo.jpg
 author: George Baker
+category: university
 --- 
 
 **Disclaimer**: I am no longer updating this page.
