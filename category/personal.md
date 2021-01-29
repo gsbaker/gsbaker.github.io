@@ -2,6 +2,7 @@
 layout: page
 permalink: /category/personal
 exclude: true
+title: Personal
 ---
 
 ## Posts

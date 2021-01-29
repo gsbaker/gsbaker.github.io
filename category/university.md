@@ -2,6 +2,7 @@
 layout: page
 permalink: /category/university
 exclude: true
+title: University
 ---
 
 ## Posts

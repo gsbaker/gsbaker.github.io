@@ -2,6 +2,7 @@
 layout: page
 permalink: /category/programming
 exclude: true
+title: Programming
 ---
 
 ## Posts
