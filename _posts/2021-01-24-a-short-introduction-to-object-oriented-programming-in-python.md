@@ -181,7 +181,7 @@ the parentheses in `BankAccount()` are for giving arguments to `__init__`.
 
 So now, if we want to create instances of `BankAccount`, we have to do it like so:
 ```python
-class BankAccount
+class BankAccount:
   def __init__(self, balance, name):
     pass
 
@@ -192,7 +192,7 @@ c = BankAccount(1034, "Jane Doe")
 
 Now we can automate the process of assigning attributes to the instances `a`, `b`, and `c`:
 ```python
-class BankAccount
+class BankAccount:
   def __init__(self, balance, name):
     self.balance = balance
     self.name = name
@@ -219,7 +219,7 @@ There are two common types of methods in OOP: getters and setters.
 
 The first action we'll introduce is simply getting the account's balance (a getter method):
 ```python
-class BankAccount
+class BankAccount:
   def __init__(self, balance, name):
     self.balance = balance
     self.name = name
@@ -235,7 +235,7 @@ If a method does something with an instance, then we must give it the instance b
 Now, if we create a `BankAccount`, we can use `get_balance()` to get the balance.
 
 ```python
-class BankAccount
+class BankAccount:
   def __init__(self, balance, name):
     self.balance = balance
     self.name = name
@@ -258,7 +258,7 @@ A common action associated with bank accounts is the ability to withdraw and dep
 So let's write two methods: `withdraw` and `deposit`:
 
 ```python
-class BankAccount
+class BankAccount:
   def __init__(self, balance, name):
     self.balance = balance
     self.name = name
