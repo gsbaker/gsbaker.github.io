@@ -21,8 +21,7 @@
 title: George Baker
 email: george@gsbaker.uk
 description: >- # this means to ignore newlines until "baseurl:"
-    A blog about computer science, technology, photography, and anything else I decide
-    to write about.
+    The blog of an aspiring software engineer from Birmingham, UK.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gsbaker_
