@@ -61,23 +61,18 @@ All programming languages support the handling of different types of data called
 Here are some of the most important ones which you'll find in most modern programming
 languages:
 
-### Characters
-- `'g'`
-- `'0'`
-- `'E'`
-
-### Strings
+### [String](https://en.wikipedia.org/wiki/String_(computer_science))
 Strings are characters that are 'strung' together to form words/sentences.
 - `"My name is George"`
 - `"Hey there"`
 
-### [Integers](https://en.wikipedia.org/wiki/Integer)
+### [Integer](https://en.wikipedia.org/wiki/Integer)
 - `21`
 - `4`
 - `0`
 - `-2048`
 
-### [Floats](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
+### [Float](https://en.wikipedia.org/wiki/Floating-point_arithmetic)
 The term 'float' comes from 'floating point arithmetic'.
 - `2.43`
 - `5.1`
