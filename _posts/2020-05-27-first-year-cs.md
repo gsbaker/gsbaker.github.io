@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reflecting on the First Year of My Degree
+title: Reflecting on the first year of my degree
 author: George Baker
 category: university
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Favourite Photos of 2020
+title: My favourite photos of 2020
 description: My first collection of a year's favourite photos!
 author: George Baker
 image: https://blog.gsbaker.uk/img/top-2020/IMG_0259.jpeg

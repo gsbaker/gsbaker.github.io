@@ -1,6 +1,7 @@
 ---
 layout: post
 author: George Baker
+title: A short introduction to OOP in Python
 description: A short introduction to object oriented programming in Python.
 image: https://blog.gsbaker.uk/favicon.png
 category: programming
@@ -8,12 +9,12 @@ category: programming
 
 ### Prerequisites
 1. Have a basic knowledge of Python. (See 
-[A Short Introduction To Programming In Python]({% post_url 2020-12-18-a-short-introduction-to-programming %})).
+[A Short Introduction To Programming In Python]({% post_url 2020-12-18-python-intro %})).
 
 --- 
 
 ## All About Data 
-In my first post titled [A Short Introduction To Programming In Python]({% post_url 2020-12-18-a-short-introduction-to-programming %}),
+In my first post titled [A Short Introduction To Programming In Python]({% post_url 2020-12-18-python-intro %}),
 I attempted to simplify the act of programming as:
 > just telling a computer what to do.
 

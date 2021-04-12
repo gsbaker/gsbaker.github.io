@@ -1,7 +1,7 @@
 ---
 layout: post
 author: George Baker 
-title: A Short Introduction To Programming In Python
+title: A short introduction to Python
 description: A short introduction to programming using Python.
 image: https://blog.gsbaker.uk/img/logic-board.jpg
 category: programming

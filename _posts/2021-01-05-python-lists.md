@@ -1,20 +1,20 @@
 ---
 layout: post
 author: George Baker
-title: A Short Introduction To Lists In Python
-description: A short introduction to lists in Python.
+title: A short introduction to lists in Python
+description: A short introduction to lists in Python
 image: https://blog.gsbaker.uk/favicon.png
 category: programming
 ---
 
 ### Prerequisites
 1. Install [Python](https://www.python.org) to follow along.
-2. Read [A Short Introduction To Programming]({% post_url 2020-12-18-a-short-introduction-to-programming %}) first.
+2. Read [A Short Introduction To Programming]({% post_url 2020-12-18-python-intro %}) first.
 
 ---
 
 ## Data Types
-In [A Short Introduction To Programming]({% post_url 2020-12-18-a-short-introduction-to-programming %}),
+In [A Short Introduction To Programming]({% post_url 2020-12-18-python-intro %}),
 we talked about having different *data types* — which basically allow us to categorise 
 different information. 
 
@@ -134,7 +134,7 @@ We know that $$ 1 + 2 + 3 + 4 = 10 $$.
 
 So, if we give our program this list, it needs to output `10`.
 
-Second, we'll use a *for-each* loop. In [A Short Introduction To Programming]({% post_url 2020-12-18-a-short-introduction-to-programming %}),
+Second, we'll use a *for-each* loop. In [A Short Introduction To Programming]({% post_url 2020-12-18-python-intro %}),
 we talked about for loops which use the `range(start, stop, step)` function:
 ```python
 for x in range(10):
