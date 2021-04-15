@@ -10,3 +10,5 @@ layout: home
 	<a href="/category/programming" class="tag">#programming</a>
 	<a href="/category/university" class="tag">#university</a>
 </div>
+
+# Posts
