@@ -35,6 +35,11 @@ body {
 }
 
 
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  font-family: $text-font-family;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -103,7 +108,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  //font-weight: $base-font-weight;
 }
 
 
@@ -162,7 +167,6 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $border-color-01;
   border-radius: 3px;
   background-color: $code-background-color;
 }

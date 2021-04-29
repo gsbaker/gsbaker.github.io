@@ -1,6 +1,8 @@
 ---
 ---
 
+$tag-color: #525252;
+
 #tags {
 	display: flex;
 }
@@ -9,6 +11,6 @@
 	margin-right: 10px;
 	margin-bottom: 20px;
 	padding: 5px;
-	background-color: #DBE9FA;
+	background-color: $tag-color;
 	border-radius: 5px;
 }
