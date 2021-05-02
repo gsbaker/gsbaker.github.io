@@ -11,15 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2c64c-02d6-46aa-b7ca-4e12ae33473e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/custom-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/custom-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/initialize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/initialize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +61,10 @@
       <option name="presentableId" value="Default" />
       <updated>1608331475260</updated>
       <workItem from="1608331477233" duration="189000" />
-      <workItem from="1619687348691" duration="2230000" />
+      <workItem from="1619687348691" duration="2276000" />
+      <workItem from="1619772762392" duration="447000" />
+      <workItem from="1619778556586" duration="1081000" />
+      <workItem from="1619954666972" duration="112000" />
     </task>
     <servers />
   </component>
