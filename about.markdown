@@ -4,17 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm George and this is my blog. 
+Hi, my name is George.
 
-I am a computer science student at the University of Birmingham. And yes, I didn't 
-capitalise computer science; [here's why](https://english.stackexchange.com/a/223162).
+I’m a [computer science](https://english.stackexchange.com/a/223162) student at the [University of Birmingham](cs.bham.ac.uk) and an aspiring software developer.
 
-My hobbies and interests include: 
-- Programming (I'm in the [building things for people to use](https://josephg.com/blog/3-tribes/)
- tribe)
-- Photography (follow me on [Instagram](https://www.instagram.com/georgestephenbaker))
-- Playing Tennis
-- Running
-- Listening to Music (follow me on [Apple Music](https://music.apple.com/profile/gsbaker))
+I write about things that interest me, and I try and stick as close to the facts as possible.
 
-You can find more about me by visiting my [personal webpage](https://www.gsbaker.uk).
+You can find more about me by visiting my [personal webpage](www.gsbaker.uk).
+
+> The man who moves a mountain begins by carrying away small stones.
