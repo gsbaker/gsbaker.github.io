@@ -284,6 +284,14 @@
   h6 {
     @include relative-font-size(1.0625);
   }
+
+  a {
+    color: $article-link-color;
+
+    &:visited {
+      color: $article-link-color;
+    }
+  }
 }
 
 
