@@ -4,12 +4,44 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is George.
+I’m George, a computer science student at the University of Birmingham with an interest in iOS Development, Web Development, and Human-Computer Interaction.
 
-I’m a [computer science](https://english.stackexchange.com/a/223162) student at the [University of Birmingham](cs.bham.ac.uk) and an aspiring software developer.
+## Technologies
+A selection of the technologies that I’ve worked with:
 
-I write about things that interest me, and I try and stick as close to the facts as possible.
+### Languages
+* Python
+* Swift
+* Java
+* C / C++ 
+* Haskell
+* Ruby
 
-You can find more about me by visiting my [personal webpage](www.gsbaker.uk).
+### Frameworks
+* Django
+* UIKit
+* JavaFX
+* JDBC
+* Rails
+* PyGame
 
-> The man who moves a mountain begins by carrying away small stones.
+### Operating Systems
+* macOS
+* iOS
+* Linux
+
+### Tools
+* git
+* pip
+* Maven
+
+## Contact
+* [george@gsbaker.uk](george@gsbaker.uk)
+* [@gsbaker_](https://www.twitter.com/gsbaker_)
+
+---
+I write about things that interest me, and I try to stick as close to the facts as possible.
+
+You can find more about me by visiting my [personal webpage](https://www.gsbaker.uk).
+
+> You get out of life precisely what you put in.
