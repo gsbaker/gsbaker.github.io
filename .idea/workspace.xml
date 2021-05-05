@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79e2c64c-02d6-46aa-b7ca-4e12ae33473e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/about.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-04-08-social-network.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-08-social-network.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,8 @@
       <workItem from="1619778556586" duration="1081000" />
       <workItem from="1619954666972" duration="420000" />
       <workItem from="1620152136083" duration="686000" />
-      <workItem from="1620157123514" duration="430000" />
+      <workItem from="1620157123514" duration="738000" />
+      <workItem from="1620244929225" duration="321000" />
     </task>
     <servers />
   </component>
