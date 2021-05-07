@@ -19,8 +19,13 @@ From the user's perspective, you give a username (which has to be unique), you a
 some multiple choice questions, then you are given a score which you can see on a 
 leaderboard.
 
-This project is currently not deployed; I am still figuring that part out (however,
-the source code has been written).
+![](/img/projects/quiz-1.png)
+
+![](/img/projects/quiz-2.png)
+
+![](/img/projects/quiz-3.png)
+
+Take the quiz: [quiz.gsbaker.uk](http://quiz.gsbaker.uk)
 
 ## [food-diary](https://github.com/gsbaker/food-diary)
 A desktop calorie-counter app built using Java, JavaFX (never again) and mySQL.
