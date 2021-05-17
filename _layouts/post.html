@@ -24,10 +24,23 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+
     {%- if page.category -%}
       <a href="/category/{{ page.category }}" class="tag">#{{ page.category }}</a>
     {%- endif -%}
+
+    {%- if page.rating -%}
+    <div id="stars">
+      {% for i in (1..page.rating) %}
+      <img src="/img/star-filled.png" alt="Star">
+      {% endfor %}
+    </div>
+    {%- endif -%}
   </header>
+
+
+
+
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}

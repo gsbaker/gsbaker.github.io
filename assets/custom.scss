@@ -27,6 +27,21 @@ $tag-color: #373C43;
 	border-radius: 5px;
 }
 
+#stars {
+
+	margin-top: 15px;
+
+	img {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+.album-cover {
+	width: 600px;
+	height: 600px;
+}
+
 .twitter-share-button {
 	font-weight: bold;
 	color: white;

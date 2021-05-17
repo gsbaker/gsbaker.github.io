@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /category/personal
+permalink: /category/music
 exclude: true
-title: Personal
+title: Music
 ---
 
 {% if site.paginate %}
@@ -19,7 +19,7 @@ title: Personal
 <ul class="post-list">
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 {%- for post in posts -%}
-{%- if post.category == "personal" -%}
+{%- if post.category == "music" -%}
 <li>
 <span class="post-meta">{{ post.date | date: date_format }}</span>
 <h3>

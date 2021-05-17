@@ -5,8 +5,6 @@ exclude: true
 title: Programming
 ---
 
-## Posts
-
 {% if site.paginate %}
 {% assign posts = paginator.posts %}
 {% else %}
