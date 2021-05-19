@@ -3,15 +3,14 @@ author:
   name: George Baker
   email: george@gsbaker.uk
 description: > # this means to ignore newlines until "show_excerpts:"
-  The blog of a computer science student and aspiring software developer, interested in the intersection of technology and
-  the humanities.
+  CS student, software engineer, writer
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
 #  date_format: "%b %-d, %Y"
-  date_format: "%m-%d-%Y"
+  date_format: "%d-%m-%Y"
   # generate social links in footer
   social_links:
     twitter: gsbaker_
