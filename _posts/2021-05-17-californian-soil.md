@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Californian Soil Review
+title: Californian Soil review
 author: George Baker
 rating: 4
 category: music
