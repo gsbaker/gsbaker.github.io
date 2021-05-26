@@ -11,16 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2c64c-02d6-46aa-b7ca-4e12ae33473e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2021-05-21-minimalism.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/grey-white-living-room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ipod.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mac-pro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/simplify-apple-sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/steve-jobs-appartment.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-05-17-californian-soil.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-05-17-californian-soil.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/custom-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/custom-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +80,9 @@
       <workItem from="1621352969111" duration="693000" />
       <workItem from="1621552835619" duration="1843000" />
       <workItem from="1621698253184" duration="709000" />
-      <workItem from="1621941647160" duration="56000" />
+      <workItem from="1621941647160" duration="627000" />
+      <workItem from="1621958191181" duration="15000" />
+      <workItem from="1621970213950" duration="1073000" />
     </task>
     <servers />
   </component>
