@@ -2,7 +2,7 @@
 layout: post
 title: Californian Soil review
 author: George Baker
-rating: 4
+rating: 3
 category: music
 image: https://blog.gsbaker.uk/img/album-covers/californian-soil.webp
 ---
