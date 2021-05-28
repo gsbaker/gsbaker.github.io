@@ -11,36 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e2c64c-02d6-46aa-b7ca-4e12ae33473e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/memoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2021-05-28-scaled-and-icy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/album-covers/scaled-and-icy.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/minima/custom-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/minima/custom-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/music.md" beforeDir="false" afterPath="$PROJECT_DIR$/category/music.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/personal.md" beforeDir="false" afterPath="$PROJECT_DIR$/category/personal.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/category/programming.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/university.md" beforeDir="false" afterPath="$PROJECT_DIR$/category/university.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon.heic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon.pxd/QuickLook/Icon.tiff" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.pxd/QuickLook/Icon.tiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon.pxd/QuickLook/Thumbnail.tiff" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.pxd/QuickLook/Thumbnail.tiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon.pxd/metadata.info" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.pxd/metadata.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/mstile-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/index.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +54,8 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/album-covers" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/projects" />
       <recent name="$PROJECT_DIR$/_posts" />
     </key>
@@ -112,7 +85,7 @@
       <workItem from="1621941647160" duration="627000" />
       <workItem from="1621958191181" duration="15000" />
       <workItem from="1621970213950" duration="1073000" />
-      <workItem from="1622109442826" duration="7779000" />
+      <workItem from="1622109442826" duration="9362000" />
     </task>
     <servers />
   </component>
