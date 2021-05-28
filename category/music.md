@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /category/music
-exclude: true
 title: Music
 ---
 
@@ -11,10 +10,9 @@ title: Music
 {% assign posts = site.posts %}
 {% endif %}
 
-
 {%- if posts.size > 0 -%}
 {%- if page.list_title -%}
-<h2 class="post-list-heading">{{ page.list_title }}</h2>
+<h1 class="post-list-heading">{{ page.list_title }}</h1>
 {%- endif -%}
 <ul class="post-list">
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -22,11 +20,11 @@ title: Music
 {%- if post.category == "music" -%}
 <li>
 <span class="post-meta">{{ post.date | date: date_format }}</span>
-<h3>
+<h2>
 <a class="post-link" href="{{ post.url | relative_url }}">
 {{ post.title | escape }}
 </a>
-</h3>
+</h2>
 {%- if site.show_excerpts -%}
 {{ post.excerpt }}
 {%- endif -%}

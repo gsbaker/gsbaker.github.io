@@ -21,7 +21,7 @@
 
   &,
   &:visited {
-    color: $link-base-color;
+    color: $link-color;
   }
 }
 
@@ -29,9 +29,7 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-  background-color: $background-color;
-  border: 1px solid $border-color-01;
-  border-radius: 5px;
+  background-color: $light-bg-color;
   text-align: right;
 
   .nav-trigger {
@@ -71,10 +69,15 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $link-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
+    font-weight: 500;
+
+    &:hover {
+      color: $link-hover-color;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -124,9 +127,6 @@
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
-  a {
-    color: #66676f;
-  }
 }
 
 .footer-heading {
@@ -142,12 +142,6 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
-}
-
-.footer-col-wrapper,
-.social-links {
-  @include relative-font-size(0.9375);
-  color: $brand-color;
 }
 
 .footer-col {
@@ -227,12 +221,12 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $brand-color;
+  color: $meta-light-color;
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(2);
+  //@include relative-font-size(2);
 }
 
 
@@ -286,14 +280,6 @@
   }
   h6 {
     @include relative-font-size(1.0625);
-  }
-
-  a {
-    color: $article-link-color;
-
-    &:visited {
-      color: $article-link-color;
-    }
   }
 }
 

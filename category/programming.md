@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /category/programming
-exclude: true
 title: Programming
 ---
 
@@ -14,7 +13,7 @@ title: Programming
 
 {%- if posts.size > 0 -%}
 {%- if page.list_title -%}
-<h2 class="post-list-heading">{{ page.list_title }}</h2>
+<h1 class="post-list-heading">{{ page.list_title }}</h1>
 {%- endif -%}
 <ul class="post-list">
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -22,11 +21,11 @@ title: Programming
 {%- if post.category == "programming" -%}
 <li>
 <span class="post-meta">{{ post.date | date: date_format }}</span>
-<h3>
+<h2>
 <a class="post-link" href="{{ post.url | relative_url }}">
 {{ post.title | escape }}
 </a>
-</h3>
+</h2>
 {%- if site.show_excerpts -%}
 {{ post.excerpt }}
 {%- endif -%}

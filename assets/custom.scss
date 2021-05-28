@@ -1,7 +1,7 @@
 ---
 ---
 
-$tag-color: #373C43;
+$tag-color: #eee;
 
 #profile-picture {
 	width: 50px;
@@ -10,7 +10,38 @@ $tag-color: #373C43;
 	border-radius: 100%;
 }
 
-#footer-profile-picture {
+.home-header-container {
+	text-align: center;
+
+	.home-header {
+		display: inline-block;
+
+		h1 {
+			margin: 0;
+		}
+	}
+}
+
+#www-link {
+	background-color: $tag-color;
+	display: inline-block;
+	padding-right: 10px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#memoji {
+	width: 50px;
+	height: 50px;
+}
+
+#nav-logo {
+	width: 40px;
+}
+
+#footer-logo {
 	width: 100px;
 	height: 100px;
 }
@@ -45,18 +76,12 @@ $tag-color: #373C43;
 
 .twitter-share-button {
 	font-weight: bold;
-	color: white;
-	background-color: #3d4047;
+	background-color: #eee;
 	padding: 15px;
 	border-radius: 10px;
 	line-height: 25px;
 	display: inline-block;
 	margin: 0 auto;
-
-	&:hover {
-		text-decoration: none;
-		color: white;
-	}
 }
 
 .twitter-logo {

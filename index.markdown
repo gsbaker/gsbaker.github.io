@@ -5,9 +5,6 @@
 layout: home
 ---
 
-<div id="tags">
-    <a href="/category/music" class="tag">#music</a>
-	<a href="/category/personal" class="tag">#personal</a>
-	<a href="/category/programming" class="tag">#programming</a>
-	<a href="/category/university" class="tag">#university</a>
-</div>
+<a href="https://www.gsbaker.uk" id="www-link"><img src="/img/memoji.png" id="memoji" alt="Memoji"> www.gsbaker.uk</a>
+
+# Posts
