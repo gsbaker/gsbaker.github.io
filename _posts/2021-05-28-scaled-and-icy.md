@@ -9,7 +9,7 @@ image: https://blog.gsbaker.uk/img/album-covers/scaled-and-icy.jpeg
 
 <img src="/img/album-covers/scaled-and-icy.jpeg" alt="SAI Album Cover" class="album-cover">
 
-Twenty One Pilots are an interesting band. They've achieved massive mainstream popularity thanks to singles like Stressed Out, Ride, and Heathens. However, beneath the surface of these easy listening, mediocre hits, are a very unique, ambitious, and exciting duo with an **extremely** [loyal fanbase](https://www.reddit.com/r/twentyonepilots/).
+Twenty One Pilots are an interesting band. They've achieved massive mainstream popularity thanks to singles like Stressed Out, Ride, and Heathens. However, beneath the surface of these easy listening, mediocre hits, are a very unique, ambitious, and exciting duo with an **extremely** [loyal fanbase](https://www.allthingsloud.com/inside-the-world-of-twenty-one-pilots-dedicated-fanbase/).
 
 After the sudden fame and success of their fourth album Blurryface (thanks to the aforementioned singles), it must have been difficult for singer and songwriter Tyler Joseph to know what to do next. How do you build on sudden popularity after existing for so long as a notable, but fairly obscure artist?
 
