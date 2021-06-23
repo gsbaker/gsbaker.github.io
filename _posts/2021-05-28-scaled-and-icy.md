@@ -1,13 +1,17 @@
 ---
-layout: post
+layout: review
 title: Scaled And Icy review
 rating: 3
 author: George Baker
 category: music
-image: https://blog.gsbaker.uk/img/album-covers/scaled-and-icy.jpeg
+image: /img/album-covers/scaled-and-icy.jpeg
+album_title: Scaled And Icy
+artist: twenty one pilots
+genre: Alternative
+release_year: 2021
+best_songs: Good Day, No Chances, Redecorate
+worst_songs: Formidable, Bounce Man
 ---
-
-<img src="/img/album-covers/scaled-and-icy.jpeg" alt="SAI Album Cover" class="album-cover">
 
 Twenty One Pilots are an interesting band. They've achieved massive mainstream popularity thanks to singles like Stressed Out, Ride, and Heathens. However, beneath the surface of these easy listening, mediocre hits, are a very unique, ambitious, and exciting duo with an **extremely** [loyal fanbase](https://www.allthingsloud.com/inside-the-world-of-twenty-one-pilots-dedicated-fanbase/).
 
