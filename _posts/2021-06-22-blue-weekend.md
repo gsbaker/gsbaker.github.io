@@ -29,7 +29,7 @@ The result is a sound that I would describe as more mature, but quintessentially
 
 In fact, Blue Weekend is Wolf Alice’s best album to date — making it another masterpiece. From the dreamy vocals and guitar effects on ‘Lipstick on the Glass’, to the swirling synths of ‘How Can I Make It OK?’, to the aggressive guitar riffs on ‘Smile’ and ‘Play the Greatest Hits’ (a song which will rip your head off), this album has ambition written all over it, and it’s surely a contender for 2021’s album of the year (and possibly a Grammy…).
 
-If I had to pick a favourite song, it would be the sensual tribute to self-love ‘Feeling Myself’. With its slightly ominous synth, and ethereal combination of creepy vocals, guitar effects, and strings, this track takes Wolf Alice to new heights.
+If I had to pick a favourite song, it would be the slightly weird ‘Feeling Myself’. With its slightly ominous synth, and ethereal combination of creepy vocals, guitar effects, and strings, this track takes Wolf Alice to new heights.
 
 Blue Weekend also shows off the softer side of Wolf Alice, with ‘Safe From Heartbreak (if you never fall in love)’, ‘No Hard Feelings’ (a delicate ballad about parting ways amicably), and ‘The Beach II’ which ends the album in dreamy shoegaze land where we’re all drinking “liquid rose”.
 
