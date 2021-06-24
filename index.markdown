@@ -5,6 +5,4 @@
 layout: home
 ---
 
-<a href="https://www.gsbaker.uk" id="www-link"><img src="/img/memoji.png" id="memoji" alt="Memoji"> www.gsbaker.uk</a>
-
 # Posts

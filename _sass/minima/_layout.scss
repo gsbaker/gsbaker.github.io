@@ -29,7 +29,6 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-  background-color: $light-bg-color;
   text-align: right;
 
   .nav-trigger {
@@ -221,7 +220,6 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $meta-light-color;
 }
 
 .post-link {
@@ -300,8 +298,6 @@
   }
 }
 
-
-
 /**
  * Pagination navbar
  */
@@ -326,8 +322,6 @@
     }
   }
 }
-
-
 
 /**
  * Grid helpers

@@ -1,2 +1,135 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+@media (prefers-color-scheme: light) {
+  .tag {
+    background-color: $div-background-color-light;
+  }
+
+  .album-info {
+    background-color: $div-background-color-light;
+  }
+
+  .star-unfilled {
+    fill: $div-background-color-light;
+  }
+
+  .post-meta {
+    color: grey;
+  }
+
+  pre, code {
+    background-color: $div-background-color-light;
+  }
+
+  .highlight {
+    .highlighter-rouge & {
+      background: $div-background-color-light;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  $background-color: black;
+  body {
+    background-color: black;
+    color: #eee;
+  }
+
+  .tag {
+    background-color: $div-background-color-dark;
+  }
+
+  .album-info {
+    background-color: $div-background-color-dark;
+  }
+
+  .star-unfilled {
+    fill: $div-background-color-dark;
+  }
+
+  .post-meta {
+    color: grey;
+  }
+
+  pre, code {
+    background-color: $div-background-color-dark;
+  }
+
+  .highlight {
+    .highlighter-rouge & {
+      background: $div-background-color-dark;
+    }
+  }
+}
+
+hr {
+  border: 0.25px solid grey;
+}
+
+.album-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+  div {
+    padding: 20px;
+    max-width: 300px;
+
+    img {
+      max-width: 300px;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+#profile-picture {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.star-filled {
+  fill: gold;
+}
+
+#nav-logo {
+  width: 40px;
+}
+
+#footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
+#tags {
+  display: flex;
+}
+
+.tag {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#stars {
+  margin-top: 15px;
+}
+
+.album-cover {
+  max-width: 600px;
+  max-height: 600px;
+  width: 80%;
+}
+
