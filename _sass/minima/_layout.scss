@@ -21,7 +21,7 @@
 
   &,
   &:visited {
-    color: $link-color;
+    color: $theme-color;
   }
 }
 
@@ -68,14 +68,14 @@
   }
 
   .page-link {
-    color: $link-color;
+    color: $theme-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
     font-weight: 500;
 
     &:hover {
-      color: $link-hover-color;
+      color: $theme-color-hover;
     }
 
     // Gaps between nav items, but not on the last one
@@ -121,7 +121,7 @@
  * Site footer
  */
 .site-footer {
-  padding: $spacing-unit 0;
+  padding-bottom: $spacing-unit;
   display: inline-block;
   margin: 0 auto;
   font-size: 20px;
@@ -191,8 +191,6 @@
   }
 }
 
-
-
 /**
  * Page content
  */
@@ -239,7 +237,7 @@
 .post-title,
 .post-content h1 {
   @include relative-font-size(2.625);
-  letter-spacing: -1px;
+  //letter-spacing: -1px;
   line-height: 1.15;
 
   @media screen and (min-width: $on-large) {
@@ -278,23 +276,6 @@
   }
   h6 {
     @include relative-font-size(1.0625);
-  }
-}
-
-
-.social-media-list {
-  display: table;
-  margin: 0 auto;
-  li {
-    float: left;
-    margin: 5px 10px 5px 0;
-    &:last-of-type { margin-right: 0 }
-    a {
-      display: block;
-      padding: $spacing-unit / 4;
-      border: 1px solid $border-color-01;
-      &:hover { border-color: $border-color-02 }
-    }
   }
 }
 

@@ -47,10 +47,6 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-}
-
 blockquote {
   color: grey;
 }
@@ -112,7 +108,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  //font-weight: $base-font-weight;
+  font-weight: 600;
 }
 
 
@@ -121,15 +117,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-color;
+  color: $theme-color;
   text-decoration: none;
 
   &:visited {
-    color: $link-color;
+    color: $theme-color;
   }
 
   &:hover {
-    color: $link-hover-color;
+    color: $theme-color-hover;
   }
 
   .social-media-list &:hover {
@@ -149,7 +145,6 @@ blockquote {
   border-left: 4px solid $blockquote-color;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  font-style: italic;
 
   > :last-child {
     margin-bottom: 0;
