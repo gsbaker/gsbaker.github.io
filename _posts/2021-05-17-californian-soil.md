@@ -1,15 +1,9 @@
 ---
-layout: review
+layout: post
 title: Californian Soil review
 author: George Baker
 rating: 4
 category: music
-image: /img/album-covers/californian-soil.webp
-album_title: Californian Soil
-artist: London Grammar
-genre: Alternative
-release_year: 2021
-best_songs: Lose Your Head, Lord It's a Feeling
 ---
 
 Californian Soil is very much about **taking back control**. With that control, lead singer Hannah Reid delivers a subtle pushback against the misogyny she’s faced as a front woman in a toxic music industry.

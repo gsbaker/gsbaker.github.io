@@ -1,17 +1,12 @@
 ---
-layout: review
+layout: post
 title: Blue Weekend review
 author: George Baker
 rating: 5
 category: music
-image: /img/album-covers/blue-weekend.jpg
 image_url: https://blog.gsbaker.uk/img/album-covers/blue-weekend.jpg
-album_title: Blue Weekend
-artist: Wolf Alice
-genre: Alternative
-release_year: 2021
-best_songs: Lipstick On The Glass, Smile, How Can I Make It OK?, Feeling Myself, The Last Man On Earth, The Beach II
 ---
+
 
 Wolf Alice are no strangers to massive success. Having won the 2018 Mercury Prize for their masterpiece sophomore project ‘Visions Of a Life’, I found it hard to fathom how they could follow it up with something equal, let alone better.
 
