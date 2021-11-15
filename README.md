@@ -1,11 +1,10 @@
-# [blog.gsbaker.uk](https://blog.gsbaker.uk)
+# [www.gsbaker.uk](https://www.gsbaker.uk)
 
-## Ruby Version
+![Screenshot](/assets/img/screenshot.jpeg)
 
-Use `2.6.1`
+This repository contains the source code for my personal website ([www.gsbaker.uk](https://www.gsbaker.uk)).
 
-## About
+Dependencies:
 
-My personal blog created using [Jekyll](https://jekyllrb.com). 
-
-I write about music, programming, university, and my personal life.
+* [Jekyll](https://jekyllrb.com)
+* [Bootstrap](https://getbootstrap.com)
