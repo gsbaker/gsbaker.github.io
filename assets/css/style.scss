@@ -1,7 +1,39 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-"minima/skins/{{ site.minima.skin | default: 'classic' }}",
-"minima/initialize";
+a {
+  text-decoration: none;
+}
+
+#profile-picture {
+  width: 50%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#about {
+  max-width: 700px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+#posts-container {
+  max-width: 700px;
+}
+
+.card-body {
+  background-color: #eee;
+}
+
+.card-img-top {
+  max-width: 100%;
+}
+
+article {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+}

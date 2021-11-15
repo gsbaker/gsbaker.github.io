@@ -3,7 +3,8 @@ author:
   name: George Baker
   email: george@gsbaker.uk
 description: > # this means to ignore newlines until "show_excerpts:"
-  CS student, software engineer, writer
+  I am a computer science student with a diverse range of interests. The goal of my blog is to provide original,
+  thoughtful, and well-researched content.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -11,43 +12,6 @@ show_excerpts: false # set to true to show excerpts on the homepage
 minima:
 #  date_format: "%b %-d, %Y"
   date_format: "%d-%m-%Y"
-  # generate social links in footer
-  social_links:
-    twitter: gsbaker_
-    github:  gsbaker
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    instagram: gsbaker_
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
 
 # Build settings
 theme: minima

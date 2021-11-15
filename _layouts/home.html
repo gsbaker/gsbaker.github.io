@@ -2,10 +2,17 @@
 layout: default
 ---
 
-<div class="home">
-    {%- if page.title -%}
-    <h1 class="post-title">{{ page.title }}</h1>
-    {%- endif -%}
+<div id="about" class="container-sm text-center fs-5">
+    <p>
+        {{ site.description }}
+        My <a href="/assets/cv.pdf">CV</a> is available. My email is
+        <a href="mailto:george@gsbaker.uk">george@gsbaker.uk</a>.
+    </p>
+</div>
+
+
+<div class="container mt-5" id="posts-container">
+    <h2 class="fw-bold mb-4">Posts</h2>
 
     {{ content }}
 
@@ -18,22 +25,39 @@ layout: default
 
 
     {%- if posts.size > 0 -%}
-    <ul class="post-list">
+
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in posts -%}
-        <li>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h1>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </h1>
+            {% if post.external_url %}
+            <a href="{{ post.external_url | relative_url }}" target="_blank">
+            {% else %}
+            <a href="{{ post.url | relative_url }}">
+            {% endif %}
+            <div class="card mb-4">
+                {% if post.img %}
+                    <img src="/assets/img/{{ post.img }}" class="card-img-top" alt="post image">
+                {% endif %}
+                <div class="card-body">
+                    <h4 class="card-title fw-bold">
+                        {{ post.title | escape }}
+                    </h4>
+                    <p class="text-muted fs-5">{{ post.date | date_to_long_string }}</p>
+                </div>
+            </div>
+            </a>
+
+
+
+
+
+
+
             {%- if site.show_excerpts -%}
             {{ post.excerpt }}
             {%- endif -%}
-        </li>
+
         {%- endfor -%}
-    </ul>
+
 
     {% if site.paginate %}
     <div class="pager">

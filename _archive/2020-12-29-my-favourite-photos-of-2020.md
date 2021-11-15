@@ -1,0 +1,43 @@
+---
+layout: post
+title: My favourite photos of 2020
+description: My first collection of a year's favourite photos!
+author: George Baker
+image: https://blog.gsbaker.uk/img/top-2020/IMG_0259.jpeg
+category: personal
+---
+
+2020 has been the first year that I've owned a proper camera. Specifically, a 
+[Canon EOS 200D](https://store.canon.co.uk/canon-eos-200d-black-ef-s-18-55mm-f-3-5-5-6-iii-lens/2250C018/). 
+
+Over the past year, photography has become even more of a hobby of mine as I've learnt
+more about the world of cameras and lenses.
+
+This post contains my favourite photographs that I've taken this year — my first ever
+ collection of such kind:
+
+![](/assets/img/top-2020/IMG_0218.jpeg)
+
+![](/assets/img/top-2020/IMG_0257.jpeg)
+
+![](/assets/img/top-2020/IMG_0259.jpeg)
+
+![](/assets/img/top-2020/IMG_0576.jpeg)
+
+![](/assets/img/top-2020/IMG_0635.jpeg)
+
+![](/assets/img/top-2020/IMG_2759.jpeg)
+
+![](/assets/img/top-2020/IMG_3111.jpeg)
+
+![](/assets/img/top-2020/IMG_3298.jpeg)
+
+![](/assets/img/top-2020/IMG_3349.jpeg)
+
+![](/assets/img/top-2020/IMG_3425.jpeg)
+
+![](/assets/img/top-2020/IMG_3564.jpeg)
+
+![](/assets/img/top-2020/IMG_3722.jpeg)
+
+![](/assets/img/top-2020/IMG_3802.jpeg)
