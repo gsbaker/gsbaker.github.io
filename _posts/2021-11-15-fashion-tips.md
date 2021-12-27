@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Five fashion tips for men
+title: Five clothing tips for men
 img: fashion-collage.jpg
 author: George Baker
 ---
@@ -41,7 +41,7 @@ can have a big impact on price.
 
 **Fit**
 
-I recommend learning your key measurements e.g., chest size. Ill-fitting clothing and footwear—no matter the quality,
+I recommend learning your key measurements—e.g., chest size. Ill-fitting clothing and footwear—no matter the quality,
 price, or any other variable—is not worth it.
 
 ## 2. Go for a classic style
