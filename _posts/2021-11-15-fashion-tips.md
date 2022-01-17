@@ -5,9 +5,6 @@ img: fashion-collage.jpg
 author: George Baker
 ---
 
-![Fashion collage](/assets/img/fashion-collage.jpg)
-
-## Introduction
 Ever since I was a teenager, I have been fascinated by men's fashion. Looking back to my schooldays, I
 remember trying—and failing—to pull off a Ralph Lauren style ‘preppy’ look whenever we had a non-uniform day. Since
 then, through years of trial and (mostly) error, my knowledge about men’s clothes has greatly improved. In this post,
