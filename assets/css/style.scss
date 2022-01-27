@@ -74,3 +74,13 @@ article {
     filter: brightness(100%);
   }
 }
+
+.figma-label {
+  display: block;
+  background-color: lightgrey;
+  color: grey;
+  margin-left: 10px;
+  p {
+    margin: 0;
+  }
+}
