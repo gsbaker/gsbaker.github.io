@@ -5,23 +5,37 @@ a {
   text-decoration: none;
 }
 
+.card{
+  img {
+    max-height: 400px;
+  }
+}
+
+.container {
+  max-width: 700px;
+}
+
+blockquote {
+  border-left: 10px solid #ccc;
+  padding: 10px;
+  margin-left: 10px;
+  font-style: italic;
+}
+
 #profile-picture {
   width: 50%;
   max-width: 150px;
   max-height: 150px;
 }
 
-#about {
-  max-width: 700px;
-}
 
 img {
   max-width: 100%;
-  max-height: 400px;
+  //max-height: 400px;
 }
 
 #gallery-content {
-  max-width: 700px;
+  //max-width: 700px;
 }
 
 .carousel-item {
@@ -34,7 +48,7 @@ img {
 }
 
 #posts-container {
-  max-width: 700px;
+  //max-width: 700px;
 }
 
 #ux-container {
@@ -50,13 +64,11 @@ img {
 }
 
 article {
-  width: 90%;
-  max-width: 700px;
   margin: 0 auto;
 }
 
 #thumbnails-container {
-  max-width: 700px;
+  //max-width: 700px;
 }
 
 .thumbnail {

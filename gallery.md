@@ -1,6 +1,4 @@
 ---
 layout: gallery
-title: Gallery
+title: Photography
 ---
-
-Inquiries: [george@gsbaker.uk](mailto:george@gsbaker.uk)

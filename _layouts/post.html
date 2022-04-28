@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<article class="mt-5">
-
-  <header>
-    <h1 class="fw-bold" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="text-muted fs-5">
+<article class="mt-5 p-0">
+  <div class="container">
+    <header>
+      <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="text-muted fs-5">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date_to_long_string }}
         </time>
-    </p>
-  </header>
+      </p>
+    </header>
 
-  <div itemprop="articleBody">
-    {{ content }}
+    <div itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
   </div>
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
