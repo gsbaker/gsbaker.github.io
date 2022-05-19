@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Five clothing tips for men
-img: fashion-collage.jpg
+img: mens_fashion_magazine.jpg
 author: George Baker
 ---
 
