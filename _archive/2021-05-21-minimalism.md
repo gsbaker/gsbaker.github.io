@@ -48,12 +48,12 @@ Minimalism to me means design.
 
 When I'm designing anything, I aim for a  minimalist aesthetic.
 
-<img src="/assets/img/grey-white-living-room.jpg" alt="" id="grey-white-living-room">
+<img src="/img/grey-white-living-room.jpg" alt="" id="grey-white-living-room">
 
 I buy products that were made with minimalist design principles. This often
 means that I buy from companies like Apple, or Muji. 
 
-<img src="/assets/img/mac-pro.jpg" alt="" id="grey-white-living-room">
+<img src="/img/mac-pro.jpg" alt="" id="grey-white-living-room">
 
 ---
 

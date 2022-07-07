@@ -1,9 +1,10 @@
-title: George Baker
+title: CURIOUS GEORGE
 author:
   name: George Baker
   email: george@gsbaker.uk
 description: > # this means to ignore newlines until "show_excerpts:"
-  computer science student, software engineer, photographer, music fan, writer, perfectionist.
+  My name is George and I created this blog because I wanted to write about my passions, fuelled by
+  curiosity—living up to my name—and deep reflection. My favourite word: **terse**.
 url: https://www.gsbaker.uk
 # date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this

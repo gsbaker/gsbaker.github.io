@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<div class="container mt-5" id="posts-container">
-    <h1 class="mb-4">Writing</h1>
-
+<div class="container mt-3">
     {{ content }}
 
     {% if site.paginate %}
@@ -15,45 +13,58 @@ layout: default
 
     {%- if posts.size > 0 -%}
 
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
         {%- for post in posts -%}
-            {% if post.external_url %}
+        {% if post.external_url %}
             <a href="{{ post.external_url | relative_url }}" target="_blank">
-            {% else %}
-            <a href="{{ post.url | relative_url }}">
-            {% endif %}
-            <div class="card mb-4">
-                {% if post.img %}
-                    <img src="/assets/img/{{ post.img }}" class="card-img-top" alt="post image">
-                {% endif %}
-                <div class="card-body">
-                    <h4 class="card-title fw-bold">
-                        {{ post.title | escape }}
-                    </h4>
-                    <p class="text-muted fs-5">{{ post.date | date_to_long_string }}</p>
-                </div>
-            </div>
+                <img src="/img/{{ post.img }}" class="img-fluid rounded-3 mb-2" alt="">
+                <p class="m-0 fs-5 text-black">
+                    {{ post.title | escape }}
+                </p>
+                <p class="text-muted small m-0">
+                    {{ post.date | date_to_long_string }}
+                </p>
             </a>
+        {% else %}
+            <a href="{{ post.url | relative_url }}">
+                <img src="/img/{{ post.img }}" class="img-fluid w-100 rounded-3 mb-2" alt="">
+                <p class="m-0 fs-5 text-black">
+                    {{ post.title | escape }}
+                </p>
+                <p class="text-muted small m-0">
+                    {{ post.date | date_to_long_string }}
+                </p>
+            </a>
+    <hr class="border-primary">
 
-            {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-            {%- endif -%}
-
+        {% endif %}
+        {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+        {%- endif -%}
         {%- endfor -%}
 
     {% if site.paginate %}
     <div class="pager">
         <ul class="pagination">
             {%- if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+            <li><a class="previous-page" href="{{ paginator.previous_page_path | relative_url }}">{{
+                paginator.previous_page }}</a></li>
             {%- else %}
-            <li><div class="pager-edge">•</div></li>
+            <li>
+                <div class="pager-edge">•</div>
+            </li>
             {%- endif %}
-            <li><div class="current-page">{{ paginator.page }}</div></li>
+            <li>
+                <div class="current-page">{{ paginator.page }}</div>
+            </li>
             {%- if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+            <li><a class="next-page" href="{{ paginator.next_page_path | relative_url }}">{{ paginator.next_page }}</a>
+            </li>
             {%- else %}
-            <li><div class="pager-edge">•</div></li>
+            <li>
+                <div class="pager-edge">•</div>
+            </li>
             {%- endif %}
         </ul>
     </div>

@@ -98,7 +98,7 @@ I didn't really like robotics for a few reasons:
 
 
 This is what the robots (for this module) looked like:
-![EV3 Lego Robot](/assets/img/ev3.jpeg)
+![EV3 Lego Robot](/img/ev3.jpeg)
 
 
 I didn't take in much of the AI theory; a lot of it was heavy and maths based. Otherwise, I *sort of* enjoyed it,
