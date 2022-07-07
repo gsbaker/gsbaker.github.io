@@ -19,7 +19,7 @@ Computers are really dumb.
 People like to tell stories about how computers will one day take over the world, but
 right now, they look like this:
 
-![](/assets/img/logic-board.jpg)
+![](/img/logic-board.jpg)
 
 Essentially, computers are just a big slab of metal with more slabs of metal on them. 
 

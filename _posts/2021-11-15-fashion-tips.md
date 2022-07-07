@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Five clothing tips for men
+title: Five Clothing Tips For Men
 img: mens_fashion_magazine.jpg
 author: George Baker
 ---
@@ -27,7 +27,7 @@ A lot of cheaply made clothes and footwear are manufactured using synthetic fibr
 recommend avoiding the aforementioned materials in most garments except outerwear—i.e., coats and 
 jackets—and sportswear.
 
-![Materials info](/assets/img/materials-info.jpeg)
+![Materials info](/img/materials-info.jpeg)
 <figcaption class="figure-caption mb-3">Always check the materials information when shopping online. This ASOS jumper
 is made from synthetics which are inferior to wool.</figcaption>
 

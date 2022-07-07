@@ -6,3 +6,4 @@ layout: home
 exclude: true
 ---
 
+{{ site.description }}

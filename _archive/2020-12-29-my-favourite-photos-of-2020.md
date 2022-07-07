@@ -16,28 +16,28 @@ more about the world of cameras and lenses.
 This post contains my favourite photographs that I've taken this year — my first ever
  collection of such kind:
 
-![](/assets/img/top-2020/IMG_0218.jpeg)
+![](/img/top-2020/IMG_0218.jpeg)
 
-![](/assets/img/top-2020/IMG_0257.jpeg)
+![](/img/top-2020/IMG_0257.jpeg)
 
-![](/assets/img/top-2020/IMG_0259.jpeg)
+![](/img/top-2020/IMG_0259.jpeg)
 
-![](/assets/img/top-2020/IMG_0576.jpeg)
+![](/img/top-2020/IMG_0576.jpeg)
 
-![](/assets/img/top-2020/IMG_0635.jpeg)
+![](/img/top-2020/IMG_0635.jpeg)
 
-![](/assets/img/top-2020/IMG_2759.jpeg)
+![](/img/top-2020/IMG_2759.jpeg)
 
-![](/assets/img/top-2020/IMG_3111.jpeg)
+![](/img/top-2020/IMG_3111.jpeg)
 
-![](/assets/img/top-2020/IMG_3298.jpeg)
+![](/img/top-2020/IMG_3298.jpeg)
 
-![](/assets/img/top-2020/IMG_3349.jpeg)
+![](/img/top-2020/IMG_3349.jpeg)
 
-![](/assets/img/top-2020/IMG_3425.jpeg)
+![](/img/top-2020/IMG_3425.jpeg)
 
-![](/assets/img/top-2020/IMG_3564.jpeg)
+![](/img/top-2020/IMG_3564.jpeg)
 
-![](/assets/img/top-2020/IMG_3722.jpeg)
+![](/img/top-2020/IMG_3722.jpeg)
 
-![](/assets/img/top-2020/IMG_3802.jpeg)
+![](/img/top-2020/IMG_3802.jpeg)

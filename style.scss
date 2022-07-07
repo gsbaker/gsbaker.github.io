@@ -1,0 +1,32 @@
+---
+---
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.site-title, .headline {
+  font-family: 'Playfair Display', serif;
+}
+
+.site-title {
+  h1 {
+    font-weight: 700;
+  }
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 700px;
+}
+
+blockquote {
+  border-left: 10px solid #ccc;
+  padding: 10px;
+  margin-left: 10px;
+  font-style: italic;
+}
