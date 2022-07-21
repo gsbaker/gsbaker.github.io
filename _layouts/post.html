@@ -5,8 +5,8 @@ layout: default
 <article class="mt-3 p-0" id="">
   <div class="container">
     <header class="">
-      <h1 itemprop="name headline" class="headline p-0">{{ page.title | escape }}</h1>
-      <p class="small">
+      <h1 itemprop="name headline" class="fw-bold p-0">{{ page.title | escape }}</h1>
+      <p class="small text-muted">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date_to_long_string }}
         </time>

@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div class="container mt-3">
-    {{ content }}
+
+    <div class="fs-5">
+        {{ site.description }}
+    </div>
+    <div id="description-border" class="mt-4 mb-4 w-50"></div>
 
     {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -17,27 +21,28 @@ layout: default
 
         {%- for post in posts -%}
         {% if post.external_url %}
-            <a href="{{ post.external_url | relative_url }}" target="_blank">
-                <img src="/img/{{ post.img }}" class="img-fluid rounded-3 mb-2" alt="">
-                <p class="m-0 fs-5 text-black">
-                    {{ post.title | escape }}
-                </p>
-                <p class="text-muted small m-0">
-                    {{ post.date | date_to_long_string }}
-                </p>
-            </a>
-        {% else %}
-            <a href="{{ post.url | relative_url }}">
-                <img src="/img/{{ post.img }}" class="img-fluid w-100 rounded-3 mb-2" alt="">
-                <p class="m-0 fs-5 text-black">
-                    {{ post.title | escape }}
-                </p>
-                <p class="text-muted small m-0">
-                    {{ post.date | date_to_long_string }}
-                </p>
-            </a>
-    <hr class="border-primary">
 
+                <div class="d-inline-flex justify-content-between w-100 mt-4 fs-18px" id="">
+                    <div>
+                        <a href="{{ post.external_url | relative_url }}" target="_blank" class="text-black post-link">
+                        {{ post.title | escape }}
+                        </a>
+                    </div>
+                    <div>
+                        {{ post.date | date: "%Y-%m-%d" }}
+                    </div>
+                </div>
+        {% else %}
+                <div class="d-inline-flex flex-wrap justify-content-between w-100 mt-4 fs-18px">
+                    <div>
+                        <a href="{{ post.url | relative_url }}" class="text-black post-link">
+                          {{ post.title | escape }}
+                        </a>
+                    </div>
+                    <div>
+                        {{ post.date | date: "%Y-%m-%d" }}
+                    </div>
+                </div>
         {% endif %}
         {%- if site.show_excerpts -%}
         {{ post.excerpt }}
@@ -72,4 +77,4 @@ layout: default
 
     {%- endif -%}
 
-</div>
+</>

@@ -1,23 +1,21 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+@import url("https://use.typekit.net/nws2mjy.css");
+
+$highlight-color: #4747FF;
+
 body {
-  font-family: 'Merriweather', serif;
-}
-
-.site-title, .headline {
-  font-family: 'Playfair Display', serif;
-}
-
-.site-title {
-  h1 {
-    font-weight: 700;
-  }
-
+  font-family: rubik, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
 }
 
 a {
   text-decoration: none;
+  color: $highlight-color;
 }
 
 .container {
@@ -29,4 +27,18 @@ blockquote {
   padding: 10px;
   margin-left: 10px;
   font-style: italic;
+}
+
+.post-link {
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $highlight-color;
+  }
+}
+
+#description-border {
+  border: 3px solid $highlight-color;
+  border-radius: 3px;
+  height: 1px;
+  margin: 0 auto;
 }

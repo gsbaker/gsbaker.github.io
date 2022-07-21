@@ -3,8 +3,8 @@ author:
   name: George Baker
   email: george@gsbaker.uk
 description: > # this means to ignore newlines until "show_excerpts:"
-  My name is George and I created this blog because I wanted to write about my passions, fuelled by
-  curiosity—living up to my name—and deep reflection. My favourite word: **terse**.
+  My name is George and I created this blog to document my life journey. I try to write weekly notes about what's
+  going on in my life, and the world around me.
 url: https://www.gsbaker.uk
 # date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
