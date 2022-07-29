@@ -3,6 +3,7 @@ layout: post
 title: Five Clothing Tips For Men
 img: mens_fashion_magazine.jpg
 author: George Baker
+category: article
 ---
 
 Ever since I was a teenager, I have been fascinated by men's fashion. Looking back to my schooldays, I

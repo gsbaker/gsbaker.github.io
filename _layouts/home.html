@@ -3,78 +3,42 @@ layout: default
 ---
 
 <div class="container mt-3">
-
-    <div class="fs-5">
+    <div class="mb-3">
         {{ site.description }}
     </div>
-    <div id="description-border" class="mt-4 mb-4 w-50"></div>
 
-    {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-    {% else %}
-    {% assign posts = site.posts %}
-    {% endif %}
+    <h1>Articles</h1>
 
-    {%- if posts.size > 0 -%}
-
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-
-        {%- for post in posts -%}
-        {% if post.external_url %}
-
-                <div class="d-inline-flex justify-content-between w-100 mt-4 fs-18px" id="">
-                    <div>
-                        <a href="{{ post.external_url | relative_url }}" target="_blank" class="text-black post-link">
-                        {{ post.title | escape }}
-                        </a>
-                    </div>
-                    <div>
-                        {{ post.date | date: "%Y-%m-%d" }}
-                    </div>
-                </div>
-        {% else %}
-                <div class="d-inline-flex flex-wrap justify-content-between w-100 mt-4 fs-18px">
-                    <div>
-                        <a href="{{ post.url | relative_url }}" class="text-black post-link">
-                          {{ post.title | escape }}
-                        </a>
-                    </div>
-                    <div>
-                        {{ post.date | date: "%Y-%m-%d" }}
-                    </div>
-                </div>
-        {% endif %}
-        {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
-        {%- endif -%}
-        {%- endfor -%}
-
-    {% if site.paginate %}
-    <div class="pager">
-        <ul class="pagination">
-            {%- if paginator.previous_page %}
-            <li><a class="previous-page" href="{{ paginator.previous_page_path | relative_url }}">{{
-                paginator.previous_page }}</a></li>
-            {%- else %}
-            <li>
-                <div class="pager-edge">•</div>
-            </li>
-            {%- endif %}
-            <li>
-                <div class="current-page">{{ paginator.page }}</div>
-            </li>
-            {%- if paginator.next_page %}
-            <li><a class="next-page" href="{{ paginator.next_page_path | relative_url }}">{{ paginator.next_page }}</a>
-            </li>
-            {%- else %}
-            <li>
-                <div class="pager-edge">•</div>
-            </li>
-            {%- endif %}
-        </ul>
+    {% for post in site.categories.article %}
+    {% if post.external_url %}
+    <a href="{{ post.external_url | relative_url }}" target="_blank" class="text-black post-link">
+    <div class="d-inline-flex w-100 justify-content-around mt-4 post-hero">
+        <div class="p-2">
+            <h4>
+                {{ post.title | escape }}
+            </h4>
+            <p class="small text-muted">{{ post.date | date: "%Y-%m-%d" }}</p>
+        </div>
+        <div>
+            <img src="/img/{{ post.img }}" alt="" class="img-fluid rounded-3">
+        </div>
     </div>
-    {%- endif %}
+    </a>
+    {% else %}
+    <a href="{{ post.url | relative_url }}" class="text-black post-link">
+    <div class="d-inline-flex justify-content-between rounded-3 w-100 mt-4 post-hero">
+        <div class="p-2">
+            <h4>
+                    {{ post.title | escape }}
+            </h4>
+            <p class="small text-muted">{{ post.date | date: "%Y-%m-%d" }}</p>
+        </div>
+        <div>
+            <img src="/img/{{ post.img }}" alt="" class="img-fluid rounded-3">
+        </div>
+    </div>
+    </a>
+    {% endif %}
+    {% endfor %}
 
-    {%- endif -%}
-
-</>
+</div>

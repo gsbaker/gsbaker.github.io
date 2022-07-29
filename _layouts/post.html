@@ -5,15 +5,19 @@ layout: default
 <article class="mt-3 p-0" id="">
   <div class="container">
     <header class="">
-      <h1 itemprop="name headline" class="fw-bold p-0">{{ page.title | escape }}</h1>
-      <p class="small text-muted">
+      <h1 itemprop="name headline" class="p-0">{{ page.title | escape }}</h1>
+      <p class="small">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date_to_long_string }}
         </time>
       </p>
     </header>
 
-    <div itemprop="articleBody">
+    <div class="lead">
+      {{ page.lead }}
+    </div>
+
+    <div itemprop="articleBody" class="article-body">
       {{ content }}
     </div>
 

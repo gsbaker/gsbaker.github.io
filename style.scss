@@ -1,25 +1,47 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
-@import url("https://use.typekit.net/nws2mjy.css");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-$highlight-color: #4747FF;
+
+$highlight-color: #C74600;
+$display-font: 'Cormorant Garamond', 'Georgia', serif;
+$text-font: 'Merriweather', 'Times New Roman', serif;
 
 body {
-  font-family: rubik, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
+  font-family: $text-font;
+}
+
+h1, h2 {
+  font-family: $display-font;
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
   color: $highlight-color;
+  &:hover {
+    color: $highlight-color;
+  }
+}
+
+.nav-link {
+  font-weight: 800;
+  color: black;
+  &:hover {
+    color: black;
+  }
 }
 
 .container {
   max-width: 700px;
+}
+
+.post-hero {
+  background-color: #F8F8F8;
+  &:hover {
+    background-color: #eee;
+  }
 }
 
 blockquote {
@@ -27,13 +49,6 @@ blockquote {
   padding: 10px;
   margin-left: 10px;
   font-style: italic;
-}
-
-.post-link {
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: $highlight-color;
-  }
 }
 
 #description-border {
