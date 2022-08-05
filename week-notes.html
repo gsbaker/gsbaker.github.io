@@ -6,4 +6,8 @@ layout: default
 
     <h1>Week Notes</h1>
 
+    {% for post in site.categories.week-note %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+
 </div>

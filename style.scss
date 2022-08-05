@@ -1,20 +1,22 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-
-$highlight-color: #C74600;
+$highlight-color: #B51700;
+$accent-color: #A3A300;
 $display-font: 'Cormorant Garamond', 'Georgia', serif;
 $text-font: 'Merriweather', 'Times New Roman', serif;
+$title-font: 'Abril Fatface', cursive;
+$header-bg: white;
 
 body {
   font-family: $text-font;
+  font-weight: 300;
 }
 
 h1, h2 {
   font-family: $display-font;
-  font-weight: 300;
 }
 
 a {
@@ -30,12 +32,29 @@ hr {
   margin: 0;
 }
 
+#header {
+  background-color: $header-bg;
+}
+
+.nav-link-sm {
+  padding: 6px;
+  color: black;
+}
+
 .nav-link {
   font-weight: 800;
   color: black;
   &:hover {
     color: black;
   }
+}
+
+#nav-logo-img {
+  max-height: 1em;
+}
+
+::selection {
+  background: #DBD9D1;
 }
 
 .container {
@@ -47,6 +66,15 @@ hr {
   &:hover {
     background-color: #eee;
   }
+}
+
+.article-body:first-letter {
+  float:left;
+  padding: 0 10px 0 0;
+  font-size: 3.5em;
+  margin-bottom: -0.1em;
+  color: $highlight-color;
+  font-weight: 800;
 }
 
 blockquote {
@@ -61,4 +89,13 @@ blockquote {
   border-radius: 3px;
   height: 1px;
   margin: 0 auto;
+}
+
+.lead {
+  font-family: $display-font;
+  font-weight: 300;
+}
+
+#footer-img {
+  max-width: 90px;
 }
