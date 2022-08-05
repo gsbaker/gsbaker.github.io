@@ -9,6 +9,7 @@ img: "uob-campus.png"
 img-caption: "During my third and final year, I threw myself into new things: tennis, photography, even karate. The misery of lockdown
 prompted me to make sure that I <i>absolutely made the most</i> of the short rest of my time at university."
 hero-img: "uob-campus.png"
+preview-img: "uni-preview-img.png"
 ---
 
 A few weeks ago, in a somewhat grand ceremony, I officially graduated from the University of Birmingham with a BSc in
