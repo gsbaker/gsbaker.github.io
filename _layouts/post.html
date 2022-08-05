@@ -20,10 +20,12 @@ layout: default
         {{ page.lead }}
       </div>
 
+      {% if page.hero-img %}
       <figure class="figure mt-2 mb-4">
           <img src="/img/{{ page.hero-img }}" alt="" class="w-100 mt-2 mb-2 figure-img">
           <figcaption class="figure-caption"><i class="bi bi-camera-fill"></i> '{{ page.img-caption }}'</figcaption>
       </figure>
+      {% endif %}
 
       <div itemprop="articleBody" class="article-body">
         {{ content }}
