@@ -3,10 +3,15 @@ layout: default
 ---
 
 <div class="container mt-3">
-    <h1>{{ page.title }}</h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date_to_long_string }}
-    </time>
+    <div class="text-center">
+        <p class="text-uppercase font-display fw-bold">{{ page.location }}</p>
+    </div>
+    <p class="fw-bold">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.date | date_to_long_string }}
+        </time>
+    </p>
+
 
     {{ content }}
 </div>

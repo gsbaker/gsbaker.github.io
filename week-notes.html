@@ -4,10 +4,25 @@ layout: default
 
 <div class="container mt-3">
 
-    <h1>Week Notes</h1>
+    <div class="text-center">
+        <img src="/img/monogram-w-border.png" class="w-25" alt="">
+        <h1>Public Notes</h1>
+    </div>
 
-    {% for post in site.categories.week-note %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
+
+    <div class="mb-5 pb-5">
+        <h2>Entries</h2>
+        <ul>
+            {% for post in site.categories.week-note %}
+            <li>
+                <a href="{{ post.url }}">
+                    {{ post.date | date_to_long_string }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
 
 </div>

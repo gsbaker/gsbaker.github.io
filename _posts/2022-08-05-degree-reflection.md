@@ -1,7 +1,9 @@
 ---
 layout: post 
-title: Reflecting on my University Experience 
-author: George Baker
+title: Reflecting on my University Experience
+long-title: "18 Months of 'Virtual Learning': Reflecting on my University Experience"
+author: "George Baker"
+author-picture: "profile-picture.jpeg"
 category: article
 lead: "I started university as a shy and anxious teenage boy, and despite coronavirus, I'm leaving a confident young adult ready for the next
 challenge."

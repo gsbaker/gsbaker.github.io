@@ -6,7 +6,7 @@
 $highlight-color: #B51700;
 $accent-color: #A3A300;
 $display-font: 'Cormorant Garamond', 'Georgia', serif;
-$text-font: 'Merriweather', 'Times New Roman', serif;
+$text-font: 'Merriweather', 'Georgia', 'Times New Roman', serif;
 $title-font: 'Abril Fatface', cursive;
 $header-bg: white;
 
@@ -96,6 +96,22 @@ blockquote {
   font-weight: 300;
 }
 
+.font-display {
+  font-family: $display-font;
+}
+
+.location-text {
+  color: #313864;
+}
+
+.author-picture {
+  max-width: 50px;
+}
+
 #footer-img {
   max-width: 90px;
+}
+
+#monogram-sm {
+  max-width: 100px;
 }
