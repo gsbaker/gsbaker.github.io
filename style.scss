@@ -1,22 +1,29 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+$background-color: #fefaf6;
 $highlight-color: #B51700;
 $accent-color: #A3A300;
-$display-font: 'Cormorant Garamond', 'Georgia', serif;
-$text-font: 'Merriweather', 'Georgia', 'Times New Roman', serif;
-$title-font: 'Abril Fatface', cursive;
 $header-bg: white;
 
 body {
-  font-family: $text-font;
-  font-weight: 300;
+  background-color: #fefaf6;
+  font-family: 'Merriweather', serif;
 }
 
-h1, h2 {
-  font-family: $display-font;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', serif;
+}
+
+.article-body:first-letter {
+  float:left;
+  padding: 0 10px 0 0;
+  font-size: 3.5em;
+  margin-bottom: -0.1em;
+  color: $highlight-color;
+  font-weight: 800;
 }
 
 a {
@@ -42,7 +49,6 @@ hr {
 }
 
 .nav-link {
-  font-weight: 800;
   color: black;
   &:hover {
     color: black;
@@ -50,31 +56,26 @@ hr {
 }
 
 #nav-logo-img {
-  max-height: 1em;
+  max-height: 1.2em;
 }
 
 ::selection {
   background: #DBD9D1;
 }
 
-.container {
+.container, .navbar {
   max-width: 700px;
 }
 
-.post-hero {
-  background-color: #F8F8F8;
-  &:hover {
-    background-color: #eee;
-  }
+.navbar {
+  margin: 0 auto;
 }
 
-.article-body:first-letter {
-  float:left;
-  padding: 0 10px 0 0;
-  font-size: 3.5em;
-  margin-bottom: -0.1em;
-  color: $highlight-color;
-  font-weight: 800;
+.post-hero {
+  background-color: #eee;
+  &:hover {
+    background-color: #EBEBEB;
+  }
 }
 
 blockquote {
@@ -91,27 +92,10 @@ blockquote {
   margin: 0 auto;
 }
 
-.lead {
-  font-family: $display-font;
-  font-weight: 300;
-}
-
-.font-display {
-  font-family: $display-font;
-}
-
-.location-text {
-  color: #313864;
-}
-
 .author-picture {
   max-width: 50px;
 }
 
 #footer-img {
   max-width: 90px;
-}
-
-#monogram-sm {
-  max-width: 100px;
 }

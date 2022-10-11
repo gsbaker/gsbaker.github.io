@@ -1,7 +1,10 @@
 ---
-layout: post
-author: "Message from the author"
+layout: page
 ---
+
+<span class="text-muted fw-bold">
+Message from the author
+</span>
 
 *"Curiositas Est Scientia"* - Curiosity is Knowledge. I have always been curious. I have a story to back this up. In one
 of my first visits to Llandudno as a child (I must have been three or four) I was watching a performance of Punch and Judy
