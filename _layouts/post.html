@@ -5,19 +5,31 @@ layout: default
 
   <article class="container mt-3" id="">
       <header>
-        <h1 itemprop="name headline" class="p-0">
+        <h2 itemprop="name headline">
           {% if page.long-title %}
           {{ page.long-title | escape }}
           {% else %}
           {{ page.title | escape }}
           {% endif %}
-        </h1>
+        </h2>
 
         <p class="small text-muted">
+        {% if page.last_modified_at %}
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateUpdated">
+            Updated: {{ page.last_modified_at | date_to_long_string }}
+          </time>
+        {% else %}
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ page.date | date_to_long_string }}
           </time>
+        {% endif %}
         </p>
+
+
+
+
+
+        <hr>
       </header>
 
       <div itemprop="articleBody" class="article-body">

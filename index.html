@@ -1,9 +1,13 @@
 ---
 layout: default
+title: Home
+permalink: /
+description: Home
+sitemap: true
 ---
 
 <div class="container mt-3 mb-5">
-    <p><i>Curiositas Est Scientia</i></p>
+    <p><i>{{ site.description }}</i></p>
 
     <ul>
         {% for post in site.posts %}

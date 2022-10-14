@@ -1,15 +1,18 @@
-title: Curious George
+title: gsbaker
+
 author:
   name: George Baker
   email: george@gsbaker.uk
-description: > # this means to ignore newlines until "show_excerpts:"
-  Curious George is a blog written by George Baker: a software engineer who loves problem solving
-  and creativity.
+
+description: Curiositas Est Scientia
+
 url: https://gsbaker.github.io
 # date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%d-%m-%Y"
+
+timezone: Europe/Belfast
 
 # Build settings
 theme: minima
@@ -17,3 +20,16 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-sitemap
+
+jekyll_compose:
+  post_default_front_matter:
+    last_modified_at:
+    permalink:
+    description:
+    image:
+    published: true
+    sitemap: true
+    excerpt_separator: <!--more-->
+    categories:
+    tags:
