@@ -2,41 +2,28 @@
 layout: default
 ---
 
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="container content mt-3">
+    <ol class="breadcrumb lead flex-nowrap">
+        <li class="breadcrumb-item"><a href="/posts">Posts</a></li>
+        <li class="breadcrumb-item active text-truncate" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>
 
-  <article class="container mt-3" id="">
-      <header>
-        <h2 itemprop="name headline">
-          {% if page.long-title %}
-          {{ page.long-title | escape }}
-          {% else %}
-          {{ page.title | escape }}
-          {% endif %}
-        </h2>
-
-        <p class="small text-muted">
-        {% if page.last_modified_at %}
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateUpdated">
-            Updated: {{ page.last_modified_at | date_to_long_string }}
-          </time>
+<article class="mt-4 p-3">
+    <header>
+      <h2 itemprop="name headline">
+        {% if page.long-title %}
+        {{ page.long-title | escape }}
         {% else %}
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ page.date | date_to_long_string }}
-          </time>
+        {{ page.title | escape }}
         {% endif %}
-        </p>
+      </h2>
 
+    </header>
 
+    <div itemprop="articleBody">
+      {{ content }}
+    </div>
 
-
-
-        <hr>
-      </header>
-
-      <div itemprop="articleBody" class="article-body">
-        {{ content }}
-      </div>
-
-      <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  </article>
-
-{%- include footer.html -%}
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

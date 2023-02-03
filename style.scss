@@ -1,12 +1,118 @@
 ---
 ---
 
-.content {
-  max-width: 700px;
-  margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$background: white;
+$max-page-width: 1000px;
+
+body {
+  background-color: $background;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 56px;
 }
 
 nav {
-  max-width: 700px;
+  background-color: $background;
+}
+
+a {
+  color: initial;
+  text-decoration: underline;
+}
+
+article {
+  font-family: "EB Garamond", sans-serif;
+  max-width: 750px;
   margin: 0 auto;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  font-family: sans-serif;
+}
+
+.cu-btn {
+  border: 1px solid rgba(0,0,0,.15);
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-family: sans-serif;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.content {
+  margin: 0 auto;
+  max-width: $max-page-width;
+}
+
+.posts {
+  max-width: 100%;
+}
+
+.alert {
+  font-family: sans-serif;
+}
+
+.mw-300 {
+  max-width: 300px;
+}
+
+.mw-400 {
+  max-width: 400px;
+}
+
+.mw-450 {
+  max-width: 450px;
+}
+
+.mw-500 {
+  max-width: 500px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.cu-PostCard {
+  background-color: white;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+
+  img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+
+
+.cu-TextMuted {
+  color: #525252;
+}
+
+.cu-Label--amber {
+  background-color: #FFEBD6;
+  color: #663500;
+  padding: 1px 5px;
+  border: 1px solid #663500;
+  border-radius: 4px;
+}
+
+.cu-reflect-bottom {
+  -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent) , to(rgba(250, 250, 250, 0.5)));
 }

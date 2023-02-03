@@ -8,6 +8,7 @@ published: true
 categories: fashion
 tags: fashion
 sitemap: true
+img: "fashion.jpg"
 ---
 
 1. [Materials, construction, and fit are much more important than the brand](#1-materials-construction-and-fit-are-much-more-important-than-the-brand)

@@ -1,0 +1,42 @@
+---
+layout: page_large
+permalink: posts
+title: Posts
+---
+
+
+<div class="mt-2 container posts">
+
+    <div class="content container">
+        <p class="lead">Posts</p>
+    </div>
+
+
+    <div class="d-flex flex-wrap justify-content-around mt-3">
+        {% for post in site.posts %}
+        {% unless post.external_url %}
+        <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+            <div class="card text-bg-light post-card m-2 mw-500">
+                <img src="/img/thumbnails/{{ post.img }}" alt="" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title | escape }}</h5>
+                    <p class="card-text">{{ post.date | date: '%B %d, %Y' }}</p>
+                </div>
+            </div>
+        </a>
+
+        {% endunless %}
+        {% if post.external_url %}
+        <a href="{{ post.external_url | relative_url }}" class="text-decoration-none" target="_blank">
+            <div class="card text-bg-light post-card m-2 mw-500">
+                <img src="/img/thumbnails/{{ post.img }}" alt="" class="img-fluid card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title | escape }}</h5>
+                    <p class="card-text">{{ post.date | date: '%B %d, %Y' }}</p>
+                </div>
+            </div>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

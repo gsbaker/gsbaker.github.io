@@ -4,6 +4,7 @@ title: "Reflecting on my University Experience"
 permalink: /university_reflection/
 author: "George Baker"
 sitemap: true
+img: "uni-experience.jpg"
 ---
 
 A few weeks ago, in a somewhat grand ceremony, I officially graduated from the University of Birmingham with a BSc in

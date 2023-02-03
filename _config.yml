@@ -1,10 +1,18 @@
-title: gsbaker
+title: George Baker
 
 author:
   name: George Baker
   email: george@gsbaker.uk
+  job_title: Software Engineer
+  company: FreeAgent
 
-description: Curiositas Est Scientia
+social:
+  twitter: gsbaker_
+
+description: >
+  Helping to develop award-winning accounting software for small businesses
+
+motto: Curiosity is Knowledge
 
 url: https://gsbaker.github.io
 # date format
