@@ -2,28 +2,13 @@
 layout: default
 ---
 
-<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="container content mt-3">
-    <ol class="breadcrumb lead flex-nowrap">
-        <li class="breadcrumb-item"><a href="/posts">Posts</a></li>
-        <li class="breadcrumb-item active text-truncate" aria-current="page">{{ page.title }}</li>
-    </ol>
-</nav>
-
-<article class="mt-4 p-3">
+<article>
     <header>
-      <h2 itemprop="name headline">
-        {% if page.long-title %}
-        {{ page.long-title | escape }}
-        {% else %}
-        {{ page.title | escape }}
-        {% endif %}
-      </h2>
-
+      <p>{{ page.date | date_to_string }}</p>
+      <h1>{{ page.title }}</h1>
     </header>
 
-    <div itemprop="articleBody">
+    <div>
       {{ content }}
     </div>
-
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

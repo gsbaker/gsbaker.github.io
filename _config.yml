@@ -1,34 +1,17 @@
 title: George Baker
 
-author:
-  name: George Baker
-  email: george@gsbaker.uk
-  job_title: Software Engineer
-  company: FreeAgent
-
-social:
-  twitter: gsbaker_
-
 description: >
-  Helping to develop award-winning accounting software for small businesses
-
-motto: Curiosity is Knowledge
+  Ruby on Rails developer based in the UK
 
 url: https://gsbaker.github.io
-# date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%d-%m-%Y"
 
 timezone: Europe/Belfast
-
-# Build settings
-theme: minima
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
+ - jekyll-sass-converter
 
 jekyll_compose:
   post_default_front_matter:
