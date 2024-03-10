@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+
+<div class="text-center v-stack gap-3 my-3">
+  <div class="p-1">
+    <h1 class="display-1 mainHeading">{{ site.title }}</h1>
+  </div>
+  <div class="p-1">
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="p-2">
+        <img src="/assets/img/george-baker.jpeg" 
+             alt="George Baker"
+             class="profile-picture">
+      </div>
+      <div class="p-2">
+        <h2 class="m-0">{{ site.description }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  {{  content }}
+</div>

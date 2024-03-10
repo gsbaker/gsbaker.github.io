@@ -1,11 +1,27 @@
 nav {
-  img {
-    width: 115px;
-    height: 115px;
-    border-radius: 100%;
+  min-height: 120px;
+
+  .navbar-brand {
+    margin: 0 20px;
+
+    img {
+      width: 115px;
+      height: 115px;
+      max-height: 100%;
+      border-radius: 100%;
+    }
   }
-  
-  h1 {
-    color: $theme-color;
+
+  &.navbar-expand-md .nav-item .nav-link {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--bs-body-color);
+
+    &:hover {
+      background-color: $accent-color;
+      color: $theme-color;
+    }
   }
 }
