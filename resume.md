@@ -26,8 +26,12 @@ on their invoice.
 journeys on the web app to set new defaults and apply them automatically to an invoice via Turbo/Stimulus.
 - Buddied a summer intern and acted as the tech lead for their project (e.g.,
   breaking down work into user stories and providing technical advice). 
+- Won hack days founder's award twice (for most project most beneficial to the business) demoing an MVP of typeahead 
+  search for email templates, and a better onboarding journey for creating your
+  first invoice.
 
 ### Skills
+---
 
 - **Programming languages**: Ruby, JavaScript, Python, Java, Swift, Haskell
 - **Frameworks**: Ruby on Rails, Django
@@ -43,3 +47,12 @@ Computer Science BSc at the University of Birmingham
   [my paper](/assets/conformity-online-report-online.pdf){:target="\_blank"}. Built
   a custom web application with [Django](https://www.djangoproject.com) to run the experiment. 
   View [source code](https://github.com/gsbaker/visual-perception-quiz){:target="\_blank"}.
+
+### Hobbies
+---
+
+- Running
+- West Bromwich Albion football club
+- Photography
+- Music
+- Travelling
