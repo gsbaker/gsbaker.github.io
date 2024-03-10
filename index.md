@@ -20,7 +20,7 @@ the development of simple and easy-to-use software.
 
 - Web Framework: [Ruby on Rails](https://rubyonrails.org)
 - Editor: [vim](https://www.vim.org)
-- Computer: 14 in MacBook Pro
+- Computer: [MacBook Pro (14 inch)](https://www.apple.com/macbook-pro/)
 - Display: [Apple Studio Display](https://www.apple.com/studio-display/)
 
 #### Desk Setup
