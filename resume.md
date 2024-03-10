@@ -5,7 +5,8 @@ title: Resume
 
 # George Baker
 Software Engineer based in the UK\
-[{{ site.email }}](mailto:{{ site.email }})
+[{{ site.email }}](mailto:{{ site.email }})\
+[github.com/gsbaker](https://www.github.com/gsbaker){:target="\_blank"}
 
 ### Work Experience
 ---
