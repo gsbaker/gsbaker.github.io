@@ -1,27 +1,8 @@
 nav {
-
-  margin: 10px 0;
-
   img {
-    width: 115px;
-    height: 115px;
+    width: 60px;
+    height: 60px;
     max-height: 100%;
     border-radius: 100%;
-    margin: 0 20px;
-  }
-
-
-  .nav-link {
-    padding: 5px 20px;
-    margin: 0 5px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    color: var(--bs-body-color);
-
-    &:hover {
-      background-color: $accent-color;
-      color: $theme-color;
-    }
   }
 }
