@@ -1,0 +1,14 @@
+- title: "index"
+  url: "/"
+
+- title: "resume"
+  url: "/resume"
+
+- title: "blog"
+  url: "/posts"
+
+- title: "👍 music"
+  url: "/music"
+
+- title: "37signals"
+  url: "/37signals"

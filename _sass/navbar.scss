@@ -6,3 +6,9 @@ nav {
     border-radius: 100%;
   }
 }
+
+.navbar-nav .nav-link.active {
+  color: var(--bs-body-color);
+  border-bottom: 3px solid $theme-color;
+  font-weight: 500;
+}

@@ -9,18 +9,13 @@
     </button>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/">index</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/resume">resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/posts">blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/music">👍 music</a>
-        </li>
+        {% for item in site.data.navigation %}
+          {% assign page_url_without_extension = page.url | remove: ".html" %}
+          <li class="nav-item">
+            <a class="nav-link {% if item.url == page_url_without_extension %}active{% endif %}"
+               href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
