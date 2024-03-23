@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg mb-4">
+  <div class="container-fluid container">
     <a class="navbar-brand" href="/">
       <img src="/assets/img/george-baker-monogram.jpeg" 
            alt="Logo" class="d-inline-block align-text-middle">
@@ -10,10 +10,8 @@
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav">
         {% for item in site.data.navigation %}
-          {% assign page_url_without_extension = page.url | remove: ".html" %}
           <li class="nav-item">
-            <a class="nav-link {% if item.url == page_url_without_extension %}active{% endif %}"
-               href="{{ item.url }}">{{ item.title }}</a>
+            <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
           </li>
         {% endfor %}
       </ul>
