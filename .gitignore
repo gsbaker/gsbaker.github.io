@@ -1,0 +1,13 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+.idea/
+.vscode/
+*.DS_Store
+package-lock.json
+yarn.lock
+node_modules/
+gemfile.lock
