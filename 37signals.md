@@ -47,20 +47,20 @@ Secondly, I think I could bring a lot to the team. Here's why:
 
 <div class="card mb-3">
   <div class="card-body">
-    {% quote %}
+    <div class="quote">
       You're an extremely competent developer with a strong technical understanding, 
       who is also keen to learn new things and to use techniques you have seen others use successfully.
-    {% endquote %}
+    </div>
 
-    {% quote %}
-        You're a great collaborator and fun to work with. You bring interesting ideas and new
-        perspectives on our work which is very much appreciated.
-    {% endquote %}
+    <div class="quote">
+      You're a great collaborator and fun to work with. You bring interesting ideas and new
+      perspectives on our work which is very much appreciated.
+    </div>
 
-    {% quote %}
-    George's refactoring skills are consistently at a good level, with feedback from 
-    [NAME OF PRINCIPAL] in how impressed he is with how George's PRs are structured. He works to keep them as small as possible.
-    {% endquote %}
+    <div class="quote">
+      George's refactoring skills are consistently at a good level, with feedback from 
+      [NAME OF PRINCIPAL] in how impressed he is with how George's PRs are structured. He works to keep them as small as possible.
+    </div>
   </div>
 </div>
 
