@@ -3,14 +3,15 @@ layout: page
 title: 👍 Music
 ---
 
-# Great Albums
-
-Albums I consider to be outstanding:
-
-<ul>
+<div class="card">
+<div class="card-header">
+George's Favourite Albums
+</div>
+<ul class="list-group list-group-flush">
 {% for album in site.data.albums %}
-  <li>
-{{ album.title }} ({{ album.artist }})
+  <li class="list-group-item">
+  <span class="text-muted">{{ album.artist }}:</span> <span class="fw-bold">{{ album.title }}</span>   
   </li>
 {% endfor %}
 </ul>
+</div>
