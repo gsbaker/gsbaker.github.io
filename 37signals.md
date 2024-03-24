@@ -16,17 +16,22 @@ when I saw that you guys were hiring, I simply couldn't resist the opportunity t
 ### Why 37signals?
 ---
 
-Firstly, Basecamp, Hey, and Campfire are all great products which I'd love to
-contribute to.
+37signals would be a good fit for me for two reasons: **culture** and **Rails**.
 
-Secondly, having read Rework and Remote, I'm confident that I would fit in well. I'm all
-onboard for no unnecessary meetings, no pointless processes, just a focus on building great
-products and doing great work. In fact, I like to think we work in a similar way at FreeAgent.
+As a programmer, I love working with the Rails ecosystem. I love its simplicity, focus on
+conventions, and the speed at which I can create things. It's also an exciting time for Rails 
+with many cool things in the pipeline, e.g., Solid Cache, Solid Queue, Mission Control, etc. 
+I would love to work with the team that pioneers the use the framework I use every day.
 
-Thirdly, I love working with Rails. I love its simplicity, focus on
-conventions, and the speed at which I can create things. With many cool things coming to the Rails
-ecosystem, e.g., Solid Cache, Solid Queue, Mission Control, etc., I would love to work with the
-team that builds the framework I use every day.
+Having read Rework and Remote, I'm confident that I would fit in well.
+I already work from home so I'm all in on remote work and asynchronous
+collaboration. I like to focus on deep work and I'm not a fan of unnecessary
+interruptions. I'm all onboard for no unnecessary meetings, no pointless processes,
+just a focus on building great products and doing great work. In fact, I like to think
+we work in a similar way at FreeAgent.
+
+I also really admire the products that 37signals make: they're simple, elegant, and solve real problems.
+You're not trying to be everything to everyone, you're just trying to make great products that people love to use.
 
 ### Why me?
 ---
@@ -41,8 +46,9 @@ Furthermore, I think I could bring a lot to the team. Here's why:
 
 1. I am optimistic and try to bring a positive energy. E.g., this
     attitude is reflected in my code review comments, and discussions about
-    upcoming work ideas.
-2. I'm self sufficient. I'm used to working remotely, figuring things out myself, and knowing when to ask for support.
+    product ideas.
+2. I'm self sufficient. I'm used to working remotely, figuring things out myself, and knowing the best way to get
+   support when I need it.
 3. I've received positive feedback from my colleagues at FreeAgent (see below).
 
 <div class="card mb-3">
