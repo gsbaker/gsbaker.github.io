@@ -4,17 +4,18 @@ title: Posts
 ---
 
 <div class="container">
-  <header>
-    <h1>{{ page.title }}</h1>
-  </header>
-
   <div>
-    <ul>
+    <div class="card">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item fs-5 fw-bold">
+        Posts
+      </li>
       {% for post in site.posts %}
-        <li>
-          <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+        <li class="list-group-item">
+          <span class="text-muted me-3">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>
+    </div>
   </div>
 </div>
