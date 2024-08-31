@@ -5,6 +5,10 @@
 @import "mainHeading";
 @import "jekyll_quote";
 
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
 .container {
   max-width: 700px;
 }
