@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 👍 Music
+title: Albums
 ---
 
 <div class="card">

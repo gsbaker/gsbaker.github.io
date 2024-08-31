@@ -4,11 +4,5 @@
 - title: "Resume"
   url: "/resume"
 
-- title: "Blog"
-  url: "/posts"
-
-- title: "👍 Music"
-  url: "/music"
-
-- title: "37signals"
-  url: "/37signals"
+- title: "Albums"
+  url: "/albums"
