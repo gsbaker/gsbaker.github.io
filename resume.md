@@ -13,23 +13,13 @@ Software Engineer based in the UK\
 
 **FreeAgent** (Edinburgh, UK - Remote)
 
-Mid-level Software Engineer, 2024—present\
-Junior Software Engineer, 2022—2024\
-Intern, 2021
+Software Engineer (2021—present)
 
-- Product engineer working with Ruby on Rails, hotwire on the front-end, and a MySQL database. 
-- Helped build FreeAgent's first paid add-on:
- [Smart Capture](https://www.freeagent.com/blog/introducing-smart-capture/){:target="\_blank"}. Contributions included major refactoring of view templates, replacing file upload jQuery with Turbo/Stimulus.  
-- Built _default payment options_ feature to help customers choose which
-  payment provider (e.g., Stripe, PayPal) should be the default payment option
-on their invoice.
-  Contributions include adding new API endpoints and implementing new
-journeys on the web app to set new defaults and apply them automatically to an invoice via Turbo/Stimulus.
-- Buddied a summer intern and acted as the tech lead for their project (e.g.,
-  breaking down work into user stories and providing technical advice). 
-- Won hack days founder's award twice (for most project most beneficial to the business) demoing an MVP of typeahead 
-  search for email templates, and a better onboarding journey for creating your
-  first invoice.
+- Tech stack: [Ruby on Rails](https://rubyonrails.org/) (backend), [Hotwire](https://hotwired.dev)
+(frontend), and [MySQL](https://www.mysql.com/) (database). 
+- Building and maintaining features around invoicing, bills, and expense
+management.
+- Leading work to introduce new features to the product.
 
 ### Skills
 ---

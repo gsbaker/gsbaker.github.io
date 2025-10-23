@@ -1,18 +1,15 @@
+@import "avatar";
 @import "variables";
 @import "navbar";
-@import "header";
-@import "profile-picture";
-@import "mainHeading";
-@import "jekyll_quote";
 
 body {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: $font-stack;
 }
 
 .container {
   max-width: 700px;
 }
 
-hr {
-  border: 3px solid $theme-color;
+a {
+  color: $accent-color;
 }
