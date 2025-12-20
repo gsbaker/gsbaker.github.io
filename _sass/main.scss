@@ -13,3 +13,9 @@ body {
 a {
   color: $accent-color;
 }
+
+blockquote {
+  border-left: 4px solid grey;
+  padding-left: 16px;
+  color: darken(grey, 20%);
+}
